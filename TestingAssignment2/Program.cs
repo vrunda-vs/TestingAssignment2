@@ -6,8 +6,8 @@ namespace TestingAssignment2
     {
         static void Main(string[] args)
         {
-            string input = "Harshil";
-            string number = "15646";
+            string input = "Vrunda";
+            string number = "123456";
             if (number.IsValidNumeric() == true)
                 Console.WriteLine("\"" + number + "\" is not numaric value");
             else
@@ -18,19 +18,19 @@ namespace TestingAssignment2
             else
                 Console.WriteLine("\"" + number + "\" numeric value is : " + number.ConvertStringToNumber());
             Console.WriteLine("Input : \"" + input + "\" into Uppercase Letter : " + input.ConvertToUpper());
-            input = "HARSHIL";
+            input = "VRUNDA";
             Console.WriteLine("Input : \"" + input + "\" into Lowercase Letter : " + input.ConvertToLower());
-            input = "harshil sheth";
+            input = "vrunda savaliya";
             Console.WriteLine("Input : \"" + input + "\" into Titlecase Letter : " + input.ConvertToTitleCase());
-            input = "harshil";
+            input = "vrunda";
             Console.WriteLine("Check all the character of string is lower case or not : \"" + input + "\" : " + input.IsLower());
-            input = "harshil sheth";
+            input = "vrunda savaliya";
             Console.WriteLine("Input : \"" + input + "\" into Capitalize : " + input.ConvertToCapitalize());
-            input = "HARSHIL";
+            input = "VRUNDA";
             Console.WriteLine("Is input in uppercase : \"" + input + "\" : " + input.IsUpper());
-            input = "harshil sheth";
+            input = "vrunda savaliya";
             Console.WriteLine("No of words in the input : \"" + input + "\" : " + input.CountingWord());
-            input = "Harshil Sheth";
+            input = "Vrunda Savaliya";
             Console.WriteLine("Removing last character   : \"" + input + "\" : " + input.RemoveLastCharacterFrom());
             Console.WriteLine("==================================================");
         }
