@@ -21,6 +21,8 @@ namespace TestingAssignment2
             input = "VRUNDA";
             Console.WriteLine("Input : \"" + input + "\" into Lowercase Letter : " + input.ConvertToLower());
             input = "vrunda savaliya";
+            Console.WriteLine("Convert Input : \"" + input + "\" into oppsite Letter : " + input.ConvertToOppositeCase());
+            input = "VRUndA savaLIya";
             Console.WriteLine("Input : \"" + input + "\" into Titlecase Letter : " + input.ConvertToTitleCase());
             input = "vrunda";
             Console.WriteLine("Check all the character of string is lower case or not : \"" + input + "\" : " + input.IsLower());
