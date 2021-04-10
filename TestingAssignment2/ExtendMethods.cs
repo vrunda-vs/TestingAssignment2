@@ -25,10 +25,22 @@ namespace TestingAssignment2
         {
             return a.ToLower();
         }
+        
         public static string ConvertToUpper(this string a)
         {
             return a.ToUpper();
         }
+         public static string ConvertToOppositeCase(this string a)
+         {
+             int ln = str.length();
+              for (int i = 0; i < ln; i++) {
+                  if (a[i] >= 'a' && a[i] <= 'z')
+                      a[i] = a[i] - 32;
+                 else if (a[i] >= 'A' && a[i] <= 'Z')
+                      a[i] = a[i] + 32;
+                 }
+            return a;
+         }
         public static bool IsLower(this string a)
         {
             string Mystring = a;
